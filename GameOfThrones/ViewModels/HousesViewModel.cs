@@ -1,12 +1,13 @@
 ﻿using System.Linq;
 using System.Threading.Tasks;
+using GalaSoft.MvvmLight;
 using GameOfThrones.Collections;
 using GameOfThrones.Resx;
 using GameOfThrones.Services;
 
 namespace GameOfThrones.ViewModels
 {
-    public class HousesViewModel
+    public class HousesViewModel : ViewModelBase
     {
         private readonly IHousesService _housesService;
 

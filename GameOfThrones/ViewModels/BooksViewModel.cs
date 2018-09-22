@@ -1,12 +1,13 @@
 ﻿using System.Linq;
 using System.Threading.Tasks;
+using GalaSoft.MvvmLight;
 using GameOfThrones.Collections;
 using GameOfThrones.Resx;
 using GameOfThrones.Services;
 
 namespace GameOfThrones.ViewModels
 {
-    public class BooksViewModel
+    public class BooksViewModel : ViewModelBase
     {
         private readonly IBooksService _booksService;
 

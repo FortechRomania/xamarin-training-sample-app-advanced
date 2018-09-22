@@ -1,12 +1,13 @@
 ﻿using System.Linq;
 using System.Threading.Tasks;
+using GalaSoft.MvvmLight;
 using GameOfThrones.Collections;
 using GameOfThrones.Resx;
 using GameOfThrones.Services;
 
 namespace GameOfThrones.ViewModels
 {
-    public class CharactersViewModel
+    public class CharactersViewModel : ViewModelBase
     {
         private readonly ICharactersService _charactersService;
 

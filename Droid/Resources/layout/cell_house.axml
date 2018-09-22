@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp">
+    <TextView android:id="@+id/house_name_textView"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              tools:text="House Algood (The Westerlands)" 
+              android:textStyle="bold"/>
+    <TextView android:id="@+id/house_words_textView"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              tools:text="Words: No Foe May Pass" />
+    <TextView android:id="@+id/house_coat_of_arms_textView"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              tools:text="Coat of Arms: A field of silver mockingbirds, on a green field" />
+    <View android:layout_width="match_parent"
+          android:layout_height="1dp"
+          android:background="@android:color/darker_gray"
+          android:layout_marginTop="5dp" />
+</LinearLayout>
