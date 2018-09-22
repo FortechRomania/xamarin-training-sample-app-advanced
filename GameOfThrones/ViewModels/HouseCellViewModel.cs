@@ -9,7 +9,9 @@ namespace GameOfThrones.ViewModels
         {
             House = house;
 
-            Name = House.Name;
+            Name = !string.IsNullOrEmpty(House.Region)
+                          ? $"{House.Name} ({House.Region})"
+                          : House.Name;
             Words = !string.IsNullOrEmpty(House.Words)
                            ? string.Format(AppResources.HouseWordsFormat, House.Words)
                            : AppResources.HouseNoWordsInformation;

@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="w74-47-rxg">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="w74-47-rxg">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -82,8 +82,8 @@
                                     </constraints>
                                 </tableViewCellContentView>
                                 <connections>
-                                    <outlet property="NameLabel" destination="FbU-j6-dav" id="name-outlet-FbU-j6-dav"/>
                                     <outlet property="AuthorsLabel" destination="oZ8-NN-Yqr" id="name-outlet-oZ8-NN-Yqr"/>
+                                    <outlet property="NameLabel" destination="FbU-j6-dav" id="name-outlet-FbU-j6-dav"/>
                                     <outlet property="NumberOfPagesLabel" destination="1Pb-6L-Beh" id="name-outlet-1Pb-6L-Beh"/>
                                     <outlet property="ReleaseDateLabel" destination="fgK-cO-Z7L" id="name-outlet-fgK-cO-Z7L"/>
                                 </connections>
@@ -98,7 +98,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eYK-i8-E4I" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1592.8" y="-316.1919"/>
+            <point key="canvasLocation" x="1592.8" y="-316.19189999999998"/>
         </scene>
         <!--Characters-->
         <scene sceneID="T6a-jv-kWe">
@@ -116,19 +116,19 @@
                                     <rect key="frame" x="0.0" y="0.0" width="375" height="84.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Petyr Baelish (Littlefinger)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2mw-Hw-OOL" ambiguous="YES">
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Petyr Baelish (Littlefinger)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2mw-Hw-OOL">
                                             <rect key="frame" x="10" y="10" width="205" height="21"/>
                                             <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Born: In 268 AC, at the Fingers" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eY2-dI-bA0" ambiguous="YES">
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Born: In 268 AC, at the Fingers" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eY2-dI-bA0">
                                             <rect key="frame" x="10" y="33" width="223" height="20"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Played By: Aidan Gillen" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="z3k-mY-efs" ambiguous="YES">
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Played By: Aidan Gillen" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="z3k-mY-efs">
                                             <rect key="frame" x="10" y="54.5" width="165.5" height="20"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                             <nil key="textColor"/>
@@ -146,8 +146,8 @@
                                     </constraints>
                                 </tableViewCellContentView>
                                 <connections>
-                                    <outlet property="NameLabel" destination="2mw-Hw-OOL" id="name-outlet-2mw-Hw-OOL"/>
                                     <outlet property="BornInformationLabel" destination="eY2-dI-bA0" id="name-outlet-eY2-dI-bA0"/>
+                                    <outlet property="NameLabel" destination="2mw-Hw-OOL" id="name-outlet-2mw-Hw-OOL"/>
                                     <outlet property="PlayedByLabel" destination="z3k-mY-efs" id="name-outlet-z3k-mY-efs"/>
                                 </connections>
                             </tableViewCell>
@@ -161,7 +161,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ndg-v9-ftb" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1624.8" y="602.2489"/>
+            <point key="canvasLocation" x="1624.8" y="602.24890000000005"/>
         </scene>
         <!--Houses-->
         <scene sceneID="cAU-bV-zlz">
@@ -182,19 +182,19 @@
                                         <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="g7O-CJ-OfP">
                                             <rect key="frame" x="10" y="10" width="355" height="82"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="House Algood (The Westerlands)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rrr-SU-61j" ambiguous="YES">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="House Algood (The Westerlands)" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rrr-SU-61j">
                                                     <rect key="frame" x="0.0" y="0.0" width="355" height="20.5"/>
                                                     <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Words: No Foe May Pass" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aY1-O4-oWW" ambiguous="YES">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Words: No Foe May Pass" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aY1-O4-oWW">
                                                     <rect key="frame" x="0.0" y="20.5" width="355" height="20.5"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Coat of Arms: A field of silver mockingbirds, on a green field" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HCI-Hx-2aZ" ambiguous="YES">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Coat of Arms: A field of silver mockingbirds, on a green field" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HCI-Hx-2aZ">
                                                     <rect key="frame" x="0.0" y="41" width="355" height="41"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
@@ -211,9 +211,9 @@
                                     </constraints>
                                 </tableViewCellContentView>
                                 <connections>
+                                    <outlet property="CoatOfArmsLabel" destination="HCI-Hx-2aZ" id="name-outlet-HCI-Hx-2aZ"/>
                                     <outlet property="NameLabel" destination="Rrr-SU-61j" id="name-outlet-Rrr-SU-61j"/>
                                     <outlet property="WordsLabel" destination="aY1-O4-oWW" id="name-outlet-aY1-O4-oWW"/>
-                                    <outlet property="CoatOfArmsLabel" destination="HCI-Hx-2aZ" id="name-outlet-HCI-Hx-2aZ"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -280,4 +280,9 @@
             <point key="canvasLocation" x="642" y="-316"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="BooksTabBarIcon" width="30" height="30"/>
+        <image name="CharactersTabBarIcon" width="30" height="30"/>
+        <image name="HousesTabBarIcon" width="30" height="30"/>
+    </resources>
 </document>

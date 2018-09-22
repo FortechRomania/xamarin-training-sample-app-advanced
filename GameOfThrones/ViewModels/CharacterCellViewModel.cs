@@ -12,7 +12,7 @@ namespace GameOfThrones.ViewModels
 
             if (!string.IsNullOrEmpty(Character.Name) && Character.Aliases.Any() && !string.IsNullOrEmpty(Character.Aliases.First()))
             {
-                NameAndNickname = $"{Character.Name} ({string.Join(",", Character.Aliases)})";
+                NameAndNickname = $"{Character.Name} ({string.Join(", ", Character.Aliases)})";
             }
             else
             {
@@ -26,7 +26,7 @@ namespace GameOfThrones.ViewModels
                 : AppResources.CharacterNoBirthInformation;
 
             PlayedBy = Character.PlayedBy.Any() && !string.IsNullOrEmpty(Character.PlayedBy.First())
-                                ? string.Format(AppResources.CharacterPlayedByFormat, string.Join(",", Character.PlayedBy))
+                                ? string.Format(AppResources.CharacterPlayedByFormat, string.Join(", ", Character.PlayedBy))
                                 : AppResources.CharacterNoPlayedByInformation;
         }
 

@@ -10,7 +10,7 @@ namespace GameOfThrones.ViewModels
             Book = book;
 
             Name = Book.Name;
-            Authors = string.Join(",", Book.Authors);
+            Authors = string.Join(", ", Book.Authors);
             ReleaseDate = Book.Released.ToString("D");
             NumberOfPages = string.Format(AppResources.BookPagesFormat, Book.NumberOfPages);
         }
