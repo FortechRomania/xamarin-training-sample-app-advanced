@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+    <resheader
+        name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader
+        name="version">
+        <value>2.0</value>
+    </resheader>
+    <resheader
+        name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <resheader
+        name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <data name="BooksTitle" xml:space="preserve">
+        <value>Books</value>
+        <comment></comment>
+    </data>
+    <data name="CharactersTitle" xml:space="preserve">
+        <value>Characters</value>
+        <comment></comment>
+    </data>
+    <data name="HousesTitle" xml:space="preserve">
+        <value>Houses</value>
+        <comment></comment>
+    </data>
+    <data name="BookPagesFormat" xml:space="preserve">
+        <value>{0} pages</value>
+        <comment></comment>
+    </data>
+    <data name="CharacterBornFormat" xml:space="preserve">
+        <value>Born: {0}</value>
+        <comment></comment>
+    </data>
+    <data name="CharacterNoBirthInformation" xml:space="preserve">
+        <value>No birth information</value>
+        <comment></comment>
+    </data>
+    <data name="CharacterPlayedByFormat" xml:space="preserve">
+        <value>Played By: {0}</value>
+        <comment></comment>
+    </data>
+    <data name="CharacterNoPlayedByInformation" xml:space="preserve">
+        <value>No played by information</value>
+        <comment></comment>
+    </data>
+    <data name="HouseWordsFormat" xml:space="preserve">
+        <value>Word: {0}</value>
+        <comment></comment>
+    </data>
+    <data name="HouseNoWordsInformation" xml:space="preserve">
+        <value>No words information</value>
+        <comment></comment>
+    </data>
+    <data name="HouseCoatOfArmsFormat" xml:space="preserve">
+        <value>Coat of Arms: {0}</value>
+        <comment></comment>
+    </data>
+    <data name="HouseNoCoatOfArmsInformation" xml:space="preserve">
+        <value>No coat of arms information</value>
+        <comment></comment>
+    </data>
+</root>
